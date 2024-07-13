@@ -41,7 +41,7 @@ const App = () => {
         <h1 className="text-4xl font-bold mb-4">Till 11:30 AM Friday August 2nd</h1>
       </div>
       <footer className='absolute bottom-2'>
-        Made with Love 💖 ~ <a href="https://github.com/Hallcoder">Zesta</a>
+        Made with Love 💖 ~ <a href="https://github.com/Hallcoder" className="border-b border-blue-300 animate-bounce">Zesta</a>
       </footer>
     </div>
   );
