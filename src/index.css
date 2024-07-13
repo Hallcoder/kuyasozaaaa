@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .backgroundImage {
+    background-image: url("./assets/dorcus_edited.png");
+    background-size: contain; /* Ensures the image covers the entire element */
+    background-position: left; /* Centers the image horizontally and vertically */
+    /* Additional background properties you might want to use */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* Optionally, set a background color in case the image is unavailable */
+    background-color: #f0f0f0; /* Light gray */
+  }
+}
